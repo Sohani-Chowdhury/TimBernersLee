@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+#stbl{
+    border-radius: 50%;
+    margin-top: 100px;
+   
+}
+
+#welcome{
+    bottom: 0;
+    background: linear-gradient(#a1e3ed 0%, #8c4f9e 100%);
+    width:100%;
+    height: 100%;
+    display: table;
+}
+.div{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h2{
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: 300;
+}
+#name{
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+}
+
+#bio{
+    font-family: Georgia;
+    padding: 50px;
+}
+
+.line{
+    width: 70px;
+    height: 6px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+.menu{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    list-style: none;
+}
+
+.links{
+float: left;
+padding-left: 9px;
+padding-right: 9px;
+padding-top: 5px;
+padding-bottom: 5px;
+font-family: Cambria;
+font-size: 20px;
+}
